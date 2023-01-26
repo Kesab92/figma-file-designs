@@ -1,111 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <title>Home</title>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width" />
-      <link
-         rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-         crossorigin="anonymous"
-         referrerpolicy="no-referrer"
-         />
-      <!--
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--
          Need a visual blank slate?
          Remove all code in `styles.css`!
          -->
-      <link rel="stylesheet" href="styles.css" />
-      <script type="module" src="script.js"></script>
-   </head>
-   <body>
-      <main>
-         <div class="s-toolBar">
-            <button class="s-buttonCategory">
-              <i class="fa-regular fa-plus"></i>TAG-Kategorie erstellen
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="s-toolBar">
+        <button class="s-buttonCategory">
+          <i class="fa-regular fa-plus"></i>TAG-Kategorie erstellen
+        </button>
+        <button class="s-searchButton">
+          Nach TAG suchen
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="s-categoryGrid">
+        <div class="s-categoryItem">
+          <div class="categoryGridItem__content">
+            <div class="categoryGridItem__contentItem">
+              <div style="display: flex">
+                <i style="margin-top: 14px" class="fa-solid fa-user"></i>
+                <h2 style="margin-left: 8px">Position</h2>
+              </div>
+              <i class="fa-solid fa-pencil"></i>
+            </div>
+            <button class="s-buttonTag">
+              <i class="fa-regular fa-plus"></i>TAG hinzufügen
             </button>
-            <button class="s-searchButton">
-            Nach TAG suchen
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <h2 style="color: #a1a9b0">
+              Dieser Kategorie wurden noch keine TAGs hinzugefügt
+            </h2>
+          </div>
+        </div>
+        <div class="s-categoryItem">
+          <div class="categoryGridItem__content">
+            <div class="categoryGridItem__contentItem">
+              <div style="display: flex">
+                <i
+                  style="margin-top: 14px"
+                  class="fa-solid fa-bag-shopping"
+                ></i>
+                <h2 style="margin-left: 8px">Abteilung</h2>
+              </div>
+              <i class="fa-solid fa-pencil"></i>
+            </div>
+            <button class="s-buttonTag">
+              <i class="fa-regular fa-plus"></i>TAG hinzufügen
             </button>
-         </div>
-         <div class="s-categoryGrid">
-          <div class="s-categoryGridItem">
-              <div class="s-categoryGridItemContent">
-                <div class="s-categoryGridItemContentItem">
-                    <div style="display:flex;">
-                      <i style="margin-top:14px;"
-                      class="fa-solid fa-user"
-                          ></i>
-                      <h2 style="margin-left:8px;">Position</h2>
-                    </div>
-                    <i class="fa-solid fa-pencil" ></i>
-                </div>
-                <button class="s-buttonTag">
-                <i class="fa-regular fa-plus"></i>TAG hinzufügen
-                </button>
-                <h2 style="color: #a1a9b0">
-                    Dieser Kategorie wurden noch keine TAGs hinzugefügt
-                </h2>
-              </div>
+            <h2 style="color: #a1a9b0">
+              Dieser Kategorie wurden noch keine TAGs hinzugefügt
+            </h2>
           </div>
-          <div class="s-categoryGridItem">
-              <div class="s-categoryGridItemContent">
-                <div class="s-categoryGridItemContentItem">
-                    <div style="display:flex;">
-                      <i style="margin-top:14px;"
-                        class="fa-solid fa-bag-shopping"
-                          ></i>
-                      <h2 style="margin-left:8px;">Abteilung</h2>
-                    </div>
-                    <i class="fa-solid fa-pencil" ></i>
-                </div>
-                <button class="s-buttonTag">
-                <i class="fa-regular fa-plus"></i>TAG hinzufügen
-                </button>
-                <h2 style="color: #a1a9b0">
-                    Dieser Kategorie wurden noch keine TAGs hinzugefügt
-                </h2>
+        </div>
+        <div class="s-categoryItem">
+          <div class="categoryGridItem__content">
+            <div class="categoryGridItem__contentItem">
+              <div style="display: flex">
+                <i
+                  style="margin-top: 14px"
+                  class="fa-solid fa-location-dot"
+                ></i>
+                <h2 style="margin-left: 8px">Standort</h2>
               </div>
+              <i class="fa-solid fa-pencil"></i>
+            </div>
+            <button class="s-buttonTag">
+              <i class="fa-regular fa-plus"></i>TAG hinzufügen
+            </button>
+            <h2 style="color: #a1a9b0">
+              Dieser Kategorie wurden noch keine TAGs hinzugefügt
+            </h2>
           </div>
-          <div class="s-categoryGridItem">
-              <div class="s-categoryGridItemContent">
-                <div class="s-categoryGridItemContentItem">
-                    <div style="display:flex;">
-                      <i style="margin-top:14px;"
-                        class="fa-solid fa-location-dot"
-                          ></i>
-                      <h2 style="margin-left:8px;">Standort</h2>
-                    </div>
-                    <i class="fa-solid fa-pencil" ></i>
-                </div>
-                <button class="s-buttonTag">
-                <i class="fa-regular fa-plus"></i>TAG hinzufügen
-                </button>
-                <h2 style="color: #a1a9b0">
-                    Dieser Kategorie wurden noch keine TAGs hinzugefügt
-                </h2>
+        </div>
+        <div class="s-categoryItem">
+          <div class="categoryGridItem__content">
+            <div class="categoryGridItem__contentItem">
+              <div style="display: flex">
+                <i
+                  style="margin-top: 14px"
+                  class="fa-brands fa-font-awesome"
+                ></i>
+                <h2 style="margin-left: 8px">Land</h2>
               </div>
+              <i class="fa-solid fa-pencil"></i>
+            </div>
+            <button class="s-buttonTag">
+              <i class="fa-regular fa-plus"></i>TAG hinzufügen
+            </button>
+            <h2 style="color: #a1a9b0">
+              Dieser Kategorie wurden noch keine TAGs hinzugefügt
+            </h2>
           </div>
-          <div class="s-categoryGridItem">
-              <div class="s-categoryGridItemContent">
-                <div class="s-categoryGridItemContentItem">
-                    <div style="display:flex;">
-                      <i style="margin-top:14px;"
-                        class="fa-brands fa-font-awesome"
-                          ></i>
-                      <h2 style="margin-left:8px;">Land</h2>
-                    </div>
-                    <i class="fa-solid fa-pencil" ></i>
-                </div>
-                <button class="s-buttonTag">
-                <i class="fa-regular fa-plus"></i>TAG hinzufügen
-                </button>
-                <h2 style="color: #a1a9b0">
-                    Dieser Kategorie wurden noch keine TAGs hinzugefügt
-                </h2>
-              </div>
-         </div>
-      </main>
-   </body>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
