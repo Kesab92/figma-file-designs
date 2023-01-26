@@ -68,8 +68,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 8px;
 }
 .categoryGridItem__contentItem {
   display: flex;
